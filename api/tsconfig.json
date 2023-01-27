@@ -11,6 +11,6 @@
     "forceConsistentCasingInFileNames": true,
     "rootDir": "app"
   },
-  "include": [ "app/*" ],
+  "include": [ "app/*", "app/core/models" ],
   "exclude": [ "node_modules" ]
 }
