@@ -4,6 +4,7 @@
   "description": "Backend application part",
   "main": "index.js",
   "scripts": {
+    "build:win": "(rd /s /q build || mkdir build) && npm run build",
     "build": "npx tsc --build",
     "start": "node build/index"
   },
